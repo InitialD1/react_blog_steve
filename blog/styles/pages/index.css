@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f6f6f6;
+    background-image: url(../../public/GirlWithCar.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.comm-left{
+    margin-top: 200px;
+    padding:.3rem;
+    border-radius: .3rem;
+    
+  }
+.comm-right{
+    margin-top: 200px;
+    margin-left: .5rem;
+    padding:.3rem;
+    border-radius: .3rem;
+    
+}
+.comm-main{
+  margin-top: 2.5rem;
+}
+
+.list-item {
+  border-radius: 30px;
+  background-color: #b9e8ff;
+  transition: transform .3s;
+}
+.list-item:hover {
+  transform: scale(1.04);
+}
+.list-title{
+    font-size:1.3rem;
+    color: #4f4f4f;
+    padding: 0 0.5rem;
+    text-align: center;
+}
+.list-title a {
+  color: #353535;
+  font-family: “Arial”,”Microsoft YaHei”,”黑体”,”宋体”,sans-serif;
+}
+.list-context{
+    color:#353535;
+    font-family: “Arial”,”Microsoft YaHei”,”黑体”,”宋体”,sans-serif;
+    padding:.5rem;
+    line-height: 2rem;
+}
+.list-icon{
+    padding:.5rem 0;
+    color:#353535;
+}
+.list-icon span{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+pre{
+  display: block;
+  background-color: #283646 !important;
+   padding: .5rem !important;
+   overflow-y: auto;
+   font-weight: 300;
+   font-family: Menlo, monospace;
+   border-radius: .3rem;
+}
+
+pre >code{
+  border:0px !important;
+  background-color: #283646 !important;
+  color:#FFF;
+
+}
+code {
+  display: inline-block ;
+  background-color:#f3f3f3;
+  border:1px solid #fdb9cc;
+  border-radius:3px;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color:#4f4f4f;
+  margin: 0px 3px;
+}
+
+.list-context img{
+ width:100% ;
+ border-radius:5px;
+ border:1px solid #f0f0f0;
+ max-width:1000px !important;
+ display: block;
+ margin:8px  auto ;
+
+}

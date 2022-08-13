@@ -1,0 +1,30 @@
+.author_div{
+    text-align: center;
+    padding: 1rem;
+    background-color: #b9e8ff;
+    margin-left: .5rem;
+    padding:.3rem;
+    border-radius: .3rem;
+    transition: transform .3s;
+}
+.author_div:hover {
+    transform: scale(1.05);
+}
+.author_div div{
+    margin-bottom: 1rem;
+
+}
+.author_introduction{
+    font-size:.8rem;
+    color: #999;
+}
+.account{
+    background-color: #999;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+.comm_box{
+   
+  
+  
+  }

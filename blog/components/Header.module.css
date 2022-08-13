@@ -1,0 +1,18 @@
+.header {
+    background-color: #9ddeff !important;
+    padding: .4rem;
+    overflow: hidden;
+    height: 2.8rem;
+    border-bottom: 1px solid #9ddeff;
+}
+
+.header_logo {
+    color: #1e90ff;
+    font-size: 1.4rem;
+    text-align: left;
+}
+.header_menu {
+    background-color: #9ddeff;
+    font-size: 18px;
+    font-weight: 700;
+}

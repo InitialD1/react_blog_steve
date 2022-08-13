@@ -1,0 +1,28 @@
+.Genelal_div {
+    margin-top: 1rem;
+    padding: 100px;
+    background-color: #b9e8ff;
+    margin-left: .5rem;
+    padding:.3rem;
+    border-radius: .3rem;
+    text-align: center;
+    transition: transform .3s;
+}
+.Genelal_div:hover {
+    transform: scale(1.04);
+}
+.cntDiv {
+    border-radius: .4rem;
+    margin: .3rem .5rem;
+}
+.Genelal_div a {
+    display: block;
+    
+    color: #62a4d4;
+}
+a.red:hover {
+    color:  white;
+}
+div.cntDiv:hover {
+    background-color: #62a4da;
+}
