@@ -1,8 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
+import Link from 'next/link'
 import { Row, Col, Affix, Breadcrumb } from 'antd'
 import Header from '../components/Header'
-import Author from '../components/Author'
 import Footer from '../components/Footer'
 // The default style of markdown-navbar should be imported additionally
 import 'markdown-navbar/dist/navbar.css';
@@ -47,7 +47,7 @@ const Detailed = (props) => {
                     <div>
                         <div className="bread-div">
                             <Breadcrumb>
-                                <Breadcrumb.Item><a href="/">首页</a></Breadcrumb.Item>
+                                <Breadcrumb.Item><Link href="/"><a >首页</a></Link></Breadcrumb.Item>
                                 <Breadcrumb.Item>{props.typeName}</Breadcrumb.Item>
                                 <Breadcrumb.Item> {props.title}</Breadcrumb.Item>
                             </Breadcrumb>
@@ -89,7 +89,7 @@ const Detailed = (props) => {
 }
 
 Detailed.getInitialProps = async (ctx) => {
-    console.log(ctx.query.id)
+    console.log(`ctx.query.id: ${ctx.query.id}`)
     let id = ctx.query.id
     const response = await fetch(servicePath.getArticleById + id)
     console.log(response.status)

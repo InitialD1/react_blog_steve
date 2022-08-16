@@ -1,4 +1,4 @@
-const ipUrl = 'http://localhost:7001/admin/'
+const ipUrl = 'http://82.157.245.130:7001/admin/'
 
 const servicePath = {
     checkLogin: ipUrl + 'checkOpenId', //检查用户名密码是否正确

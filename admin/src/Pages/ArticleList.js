@@ -39,7 +39,7 @@ const ArticleList = (props) => {
             axios({
                 method: 'get',
                 url: servicePath.delArticle+id,
-                withCredentials: true
+                withCredentials: false
             }).then(res => {
                 message.success("文章删除成功")
                 getList()

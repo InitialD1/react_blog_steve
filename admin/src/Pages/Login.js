@@ -35,7 +35,7 @@ function Login() {
             method: 'post',
             url: servicePath.checkLogin,
             data: dataProps,
-            withCredentials: true
+            withCredentials: false
         }).then(
             res => {
                 console.log('请求成功，登录成功了吗： ',res.data.data)

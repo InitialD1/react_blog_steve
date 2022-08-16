@@ -41,7 +41,7 @@ const AddArticle = (props) => {
             method: 'get',
             url: servicePath.getTypeInfo,
             header: { 'Access-Control-Allow-Origin': '*' },
-            withCredentials: true
+            withCredentials: false
         }).then(
             res => {
                 console.log('中台获取文章类型信息 res.data.data', res.data.data)
@@ -116,7 +116,7 @@ const AddArticle = (props) => {
                     method: 'post',
                     url: servicePath.addArticle,
                     data: dataProps,
-                    withCredentials: true
+                    withCredentials: false
                 }).then(
                     res => {
                         setArticleId(res.data.insertId)
@@ -134,7 +134,7 @@ const AddArticle = (props) => {
                     url: servicePath.updateArticle,
                     header: { 'Access-Control-Allow-Origin': '*' },
                     data: dataProps,
-                    withCredentials: true
+                    withCredentials: false
                 }).then(res => {
                     if (!res.data.isSuccess) {
                         message.success('文章保存成功')

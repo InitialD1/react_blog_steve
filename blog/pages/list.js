@@ -53,7 +53,7 @@ export default class ListPage extends Component {
                         <div className="bread-div">
                             <Breadcrumb>
                                 <Breadcrumb.Item>
-                                    <a href="/">首页</a>
+                                    <Link href="/"><a >首页</a></Link>
                                 </Breadcrumb.Item>
                                 <Breadcrumb.Item>视频列表</Breadcrumb.Item>
                             </Breadcrumb>
@@ -89,7 +89,7 @@ export default class ListPage extends Component {
                     </Col>
                     <Col className="comm-right" xs={0} sm={0} md={7} lg={5} xl={4}>
                         <Author />
-                     
+
                     </Col>
                 </Row>
                 <Footer />

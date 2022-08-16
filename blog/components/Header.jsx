@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Space, Row, Col, Menu, Button } from 'antd'
+import { Space, Row, Col, Menu } from 'antd'
 import { HomeOutlined } from '@ant-design/icons'
 import { Icon } from '@ant-design/compatible';
 import styles from './Header.module.css'
@@ -33,7 +33,7 @@ const Header = () => {
             <div className={styles.header}>
                 <Row justify="center">
                     <Col xs={24} sm={24} md={10} lg={15} xl={12}>
-                        <span className={styles.header_logo}>SteveWen's Blog</span>
+                        <span className={styles.header_logo}>SteveWen&apos;s Blog</span>
                     </Col>
                     <Col xs={0} sm={0} md={14} lg={8} xl={12}>
                         <div className={styles.header_menu}>
